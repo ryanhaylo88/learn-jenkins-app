@@ -22,7 +22,9 @@ pipeline {
         }
         stage ('Test') {
             agent {
-                reuseNode True
+                any {
+                    reuseNode True
+                }
             }
             steps {
                 sh '''
