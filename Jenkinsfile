@@ -17,7 +17,7 @@ pipeline {
             }
             steps {
                 sh '''
-                    echo "Testing Git Poll
+                    echo "Testing Git Poll"
                     ls -la
                     node --version
                     npm --version
